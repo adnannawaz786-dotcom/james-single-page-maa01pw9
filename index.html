@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="James - Professional Portfolio and Personal Website">
+    <meta name="author" content="James">
+    <title>James - Welcome</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">James</span>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#experience" class="nav-link" role="menuitem">Experience</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#skills" class="nav-link" role="menuitem">Skills</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="hero" aria-label="Introduction">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">James</span>
+                    </h1>
+                    <p class="hero-subtitle">Creative Professional & Problem Solver</p>
+                    <p class="hero-description">
+                        Passionate about creating meaningful experiences through technology, 
+                        design, and innovation. Welcome to my digital space.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary" role="button">Learn More</a>
+                        <a href="#contact" class="btn btn-secondary" role="button">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <span class="avatar-placeholder">J</span>
+                        </div>
+                        <div class="profile-status">
+                            <span class="status-indicator"></span>
+                            <span class="status-text">Available for opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about" aria-label="About James">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">
+                            I'm James, a dedicated professional with a passion for excellence 
+                            and continuous learning. My journey has been shaped by curiosity, 
+                            creativity, and a drive to make a positive impact.
+                        </p>
+                        <p>
+                            With a background spanning multiple disciplines, I bring a unique 
+                            perspective to every project. I believe in the power of collaboration, 
+                            innovative thinking, and attention to detail.
+                        </p>
+                        <p>
+                            When I'm not working, you'll find me exploring new technologies, 
+                            reading, or enjoying the outdoors. I'm always eager to connect with 
+                            like-minded individuals and explore new opportunities.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h3 class="highlight-title">Mission</h3>
+                            <p>To create solutions that make a difference and inspire positive change.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3 class="highlight-title">Values</h3>
+                            <p>Integrity, innovation, collaboration, and continuous improvement.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3 class="highlight-title">Approach</h3>
+                            <p>Thoughtful planning, creative execution, and measurable results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section experience-section" id="experience" aria-label="Professional Experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Current Role</h3>
+                            <p class="timeline-period">2023 - Present</p>
+                            <p class="timeline-description">
+                                Leading innovative projects and driving strategic initiatives. 
+                                Focused on delivering exceptional results while mentoring team members 
+                                and fostering a collaborative environment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Professional Development</h3>
+                            <p class="timeline-period">2020 - 2023</p>
+                            <p class="timeline-description">
+                                Expanded expertise across multiple domains, taking on challenging 
+                                projects and developing leadership skills. Contributed to significant 
+                                organizational growth and process improvements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Early Career</h3>
+                            <p class="timeline-period">2018 - 2020</p>
+                            <p class="timeline-description">
+                                Built foundational skills and established a track record of success. 
+                                Demonstrated adaptability, strong work ethic, and commitment to 
+                                professional excellence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills" aria-label="Skills and Expertise">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">Technical</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Problem Solving</li>
+                            <li class="skill-item">Project Management</li>
+                            <li class="skill-item">Data Analysis</li>
+                            <li class="skill-item">Process Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">Creative</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Strategic Thinking</li>
+                            <li class="skill-item">Design Thinking</li>
+                            <li class="skill-item">Innovation</li>
+                            <li class="skill-item">Visual Communication</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">Leadership</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Team Management</li>
+                            <li class="skill-item">Mentoring</li>
+                            <li class="skill-item">Communication</li>
+                            <li class="skill-item">Collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact" aria-label="Contact Information">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p class="lead">
+                            I'm always interested in new opportunities, collaborations, 
+                            and meaningful conversations.
+                        </p>
+                        <p>
+                            Whether you have a project in mind, want to discuss ideas, 
+                            or simply want to connect, I'd love to hear from you.
+                        </p>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    class="form-input" 
+                                    required 
+                                    aria-describedby="name-error"
+                                >
+                                <span class="error-message" id="name-error" role="alert"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="form-input" 
+                                    required 
+                                    aria-describedby="email-error"
+                                >
+                                <span class="error-message" id="email-error" role="alert"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    class="form-textarea" 
+                                    rows="5" 
+                                    required 
+                                    aria-describedby="message-error"
+                                ></textarea>
+                                <span class="error-message" id="message-error" role="alert"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    &copy; <span id="current-year">2024</span> James. All rights reserved.
+                </p>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay" aria-hidden="true">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+    
+    <!-- Update current year -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
